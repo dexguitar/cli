@@ -5,10 +5,6 @@ import (
 	"os"
 )
 
-type PR struct {
-	Name string
-}
-
 func main() {
 	argsCount := len(os.Args)
 	if argsCount == 1 {
