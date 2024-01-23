@@ -11,7 +11,7 @@ func main() {
 		return
 	}
 
-	if os.Args[1] == "pr" {
+	if os.Args[1] == "req" {
 		fmt.Println("the message is: ", os.Args[1])
 	}
 }
